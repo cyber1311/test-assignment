@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+
+import "google/protobuf/empty.proto";
+package playlist;
+
+
+service Playlist {
+  
+  rpc Play (google.protobuf.Empty) returns (StatusResponse);
+  rpc Pause (google.protobuf.Empty) returns (google.protobuf.Empty);
+  rpc Next (google.protobuf.Empty) returns (StatusResponse);
+  rpc Prev (google.protobuf.Empty) returns (StatusResponse);
+
+  rpc AddSong (AddSongRequest) returns (StatusResponse);
+  rpc DeleteSong (DeleteSongRequest) returns (StatusResponse);
+  rpc GetPlaylist (google.protobuf.Empty) returns (PlaylistResponse);
+  rpc ClearPlaylist (google.protobuf.Empty) returns (StatusResponse);
+}
+
+message Song {
+  string title = 1;
+  int32 duration = 2;
+}
+
+message AddSongRequest {
+  Song song = 1;
+}
+
+message DeleteSongRequest {
+  string song_title = 1;
+}
+
+message StatusResponse {
+  int32 code = 1;
+  string message = 2;
+}
+
+message PlaylistResponse{
+  repeated string song_titles = 1;
+}

@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistService", "PlaylistService\PlaylistService.csproj", "{13B986F3-40B2-4F7E-8C39-D95FD4F795FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8260C759-BAF2-451C-8482-EB77D70E93E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistServiceTests", "PlaylistServiceTests\PlaylistServiceTests.csproj", "{E7881EAC-D848-4628-927B-7AF257F9D11D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistClient", "PlaylistClient\PlaylistClient.csproj", "{49C4DC9A-B60C-424A-B72E-473455842C33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92875508-3390-46BD-AEE7-955C12A0BDB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistClientTests", "PlaylistClientTests\PlaylistClientTests.csproj", "{01EB3D96-9958-46E6-853E-A5E3E7747850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaylistUseExample", "PlaylistUseExample\PlaylistUseExample.csproj", "{46A7D07F-B34C-46F4-AA19-E98420A7078A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13B986F3-40B2-4F7E-8C39-D95FD4F795FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B986F3-40B2-4F7E-8C39-D95FD4F795FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B986F3-40B2-4F7E-8C39-D95FD4F795FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B986F3-40B2-4F7E-8C39-D95FD4F795FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7881EAC-D848-4628-927B-7AF257F9D11D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7881EAC-D848-4628-927B-7AF257F9D11D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7881EAC-D848-4628-927B-7AF257F9D11D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7881EAC-D848-4628-927B-7AF257F9D11D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C4DC9A-B60C-424A-B72E-473455842C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C4DC9A-B60C-424A-B72E-473455842C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C4DC9A-B60C-424A-B72E-473455842C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C4DC9A-B60C-424A-B72E-473455842C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01EB3D96-9958-46E6-853E-A5E3E7747850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01EB3D96-9958-46E6-853E-A5E3E7747850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01EB3D96-9958-46E6-853E-A5E3E7747850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01EB3D96-9958-46E6-853E-A5E3E7747850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46A7D07F-B34C-46F4-AA19-E98420A7078A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46A7D07F-B34C-46F4-AA19-E98420A7078A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46A7D07F-B34C-46F4-AA19-E98420A7078A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46A7D07F-B34C-46F4-AA19-E98420A7078A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7881EAC-D848-4628-927B-7AF257F9D11D} = {8260C759-BAF2-451C-8482-EB77D70E93E9}
+		{49C4DC9A-B60C-424A-B72E-473455842C33} = {92875508-3390-46BD-AEE7-955C12A0BDB4}
+		{13B986F3-40B2-4F7E-8C39-D95FD4F795FB} = {92875508-3390-46BD-AEE7-955C12A0BDB4}
+		{01EB3D96-9958-46E6-853E-A5E3E7747850} = {8260C759-BAF2-451C-8482-EB77D70E93E9}
+		{46A7D07F-B34C-46F4-AA19-E98420A7078A} = {8260C759-BAF2-451C-8482-EB77D70E93E9}
+	EndGlobalSection
+EndGlobal

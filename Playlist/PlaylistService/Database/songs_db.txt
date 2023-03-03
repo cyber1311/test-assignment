@@ -1,0 +1,9 @@
+drop table if exists songs;
+
+create table songs(
+                      id serial primary key,
+                      song_title text not null,
+                      duration bigint not null,
+                      next_song_title text,
+                      prev_song_title text
+)
